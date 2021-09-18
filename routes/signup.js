@@ -14,7 +14,7 @@ router.post('/', function (req, res) {
             res.redirect('/signup/success')
         })
         .catch(function (error) {
-
+            console.log(error)
         })
 })
 router.get('/success', function (req, res) {
